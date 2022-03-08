@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/dbit.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 40px 50px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    color: indianred;
+    background-image: url(Images/interns.png);
+}
+.card2{
+    color: orange;
+    background-image: url(Images/training.webp);
+}
+.card3{
+    color:darkcyan;
+    background-image: url(Images/place.jpg);
+}
+.card4{
+    background-image: url(Images/about.png);
+}
+.card5{
+    color: crimson;
+    background-image: url(Images/testi.jpg);
+}
+.card6{
+    color: dodgerblue;
+    background-image: url(Images/Alumni.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h1{
+    text-align: center;
+}
